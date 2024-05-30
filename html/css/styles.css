@@ -1,0 +1,9 @@
+body {
+    margin: 10px;
+}
+
+article :first-child {
+    color: orange;
+    font-size: 140%;
+    font-style: italic;
+}
