@@ -1,0 +1,35 @@
+body {
+    margin: 10px;
+}
+
+h1 {
+    color: dodgerblue;
+}
+
+table, td {
+    border: c4dcf3 solid 1px;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th {
+    color: white;
+    background-color: #427fef;
+    padding: 5px;
+}
+
+tr:nth-child(odd) {
+    background-color: #eef7ff;
+}
+
+tfoot {
+    text-align: left;
+}
+
+.box {
+    background-color: tomato;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0px lightgrey;
+}
