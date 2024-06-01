@@ -2,28 +2,21 @@ body {
   margin: 10px;
 }
 
-ul {
+.container {
   display: grid;
-  border: black solid;
-  gap: 5px;
-
-  /* how many columns (3)? and of what size (25%)? */
-  grid-template-columns: repeat(3, 25%);
-
-  justify-content: center;
-  align-items: center;
-
-  height: 100vh;
-
+  grid-template: repeat(4, 400px) / repeat(3, 400px);
+  justify-items: stretch;
+  align-items: stretch;
+  border: lightcoral solid 5px;
+  gap: 200px;
 }
 
-ul li {
-  list-style: none;
+.big {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
 }
 
-ul li img {
-
-  height: 100px;
+.container img {
   object-fit: cover;
-  border-radius: 5px;
+  border-radius: 10px;
 }
