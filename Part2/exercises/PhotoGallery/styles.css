@@ -1,0 +1,29 @@
+body {
+  margin: 10px;
+}
+
+ul {
+  display: grid;
+  border: black solid;
+  gap: 5px;
+
+  /* how many columns (3)? and of what size (25%)? */
+  grid-template-columns: repeat(3, 25%);
+
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li img {
+
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
