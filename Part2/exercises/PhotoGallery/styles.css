@@ -4,16 +4,27 @@ body {
 
 .container {
   display: grid;
-  grid-template: repeat(4, 400px) / repeat(3, 400px);
+  grid-template: repeat(4, 500px) / repeat(3, 500px);
   justify-items: stretch;
   align-items: stretch;
   border: lightcoral solid 5px;
-  gap: 200px;
+  gap: 25px;
+  justify-content: center;
+  align-content: center;
 }
 
-.big {
-  grid-column: 1 / 3;
+@media screen and (max-width: 600px) {
+  .container {
+    border: rgb(128, 240, 204) solid 5px;
+    grid-template: repeat(2, 1024px) / repeat(3, 1024px);
+  }
+}
+
+img:nth-child(3) {
+  /* it uses line numbers */
+  grid-column: 2 / 4;
   grid-row: 1 / 3;
+
 }
 
 .container img {
