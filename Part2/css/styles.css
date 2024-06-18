@@ -1,25 +1,13 @@
 body {
   margin: 10px;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  background: black;
+h1 {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 p {
-  padding: 0px 15px;
-  color: white;
+  font-size: 1rem;
+  color: #333;
 }
-
-@media screen and (max-width: 500px) {
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-/* trlp */
