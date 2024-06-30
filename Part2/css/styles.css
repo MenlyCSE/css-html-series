@@ -6,6 +6,12 @@ body {
   font-size: 1rem;
   color: #333;
   line-height: 1.5;
+
+  background: url(../images/bg-sanfrancisco.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300vh;
 }
 
 h1,
@@ -23,4 +29,9 @@ h1 {
 
 p {
   width: 50ch;
+}
+
+
+.meal {
+  width: 100vh;
 }
