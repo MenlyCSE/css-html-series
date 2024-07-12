@@ -31,4 +31,5 @@ p {
 
 .meal {
   filter: grayscale(70%) blur(0.1rem);
+  width: 100px;
 }
