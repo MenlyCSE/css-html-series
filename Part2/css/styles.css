@@ -25,7 +25,10 @@ p {
   width: 50ch;
 }
 
-.meal {
+.meal:hover {
+  filter: none;
+}
 
-  clip-path: polygon(100% 0%, 62% 61%, 87% 95%, 25% 100%, 16% 50%, 30% 20%);
+.meal {
+  filter: grayscale(70%) blur(0.1rem);
 }
