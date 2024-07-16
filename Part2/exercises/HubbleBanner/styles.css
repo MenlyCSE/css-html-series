@@ -5,6 +5,51 @@ body {
   line-height: 1.5;
 }
 
+.hero {
+  background: url(/Part2/images/background_w320.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+}
 
+.hero .tagline {
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  padding: 1.5rem;
+  border-radius: 15px;
+}
 
 /* Media screens */
+@media screen and (min-width: 768px) {
+  .hero {
+    background: url(/Part2/images/background_w853.jpg) no-repeat;
+  }
+  .hero .tagline {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero {
+    background: url(/Part2/images/background_w1228.jpg) no-repeat;
+  }
+  .tagline  {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero {
+    background: url(/Part2/images/background_w1440.jpg) no-repeat;
+  }
+  .tagline  {
+    font-size: 9rem;
+  }
+}
