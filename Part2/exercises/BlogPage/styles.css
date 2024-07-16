@@ -7,3 +7,26 @@ body {
   font-size: 1.5rem;
   line-height: 1.5;
 }
+
+nav {
+  background: #2a2138;
+  color: #cfc6dc;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+nav ul li {
+  padding: 1.5rem;
+}
+
+nav ul li:hover {
+  background: #221a2e;
+  color: #fff;
+}
+
+nav ul li .fas {
+  margin-right: 1.5rem;
+}
