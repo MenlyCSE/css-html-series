@@ -10,17 +10,33 @@
       href="https://fonts.googleapis.com/css2?family=Lexend"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
-    />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="/Part2/css/styles.css" />
   </head>
   <body>
-    <form>
-      
-    </form>
+    <div class="container">
+      <h1>Please sign in</h1>
+      <form action="https://formspree.io/f/mpwawbnq" method="post">
+        <input
+          type="email"
+          name="Email"
+          placeholder="Email Address"
+          class="form-data input"
+        />
+        <input
+          type="password"
+          name="Password"
+          placeholder="Password"
+          class="form-data input"
+        />
+        <div>
+          <input type="checkbox" name="Remember" />
+          <span>Remember me</span>
+        </div>
+        <button type="submit" name="Submit" class="form-data">Sign in</button>
+      </form>
+      <p>Copyright &copy; 2020</p>
+    </div>
 
     <script src="https://kit.fontawesome.com/fa6b9bb030.js"></script>
   </body>
