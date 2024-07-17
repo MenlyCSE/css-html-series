@@ -11,6 +11,10 @@ form {
   padding: 2rem;
 }
 
+input {
+  margin-top: 1rem;
+}
+
 textarea {
   resize: none;
   margin-top: 2rem;
