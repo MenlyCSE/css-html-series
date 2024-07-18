@@ -1,0 +1,52 @@
+body {
+  font-family: "Lexend", sans-serif;
+  font-size: 1rem;
+  background-color: #fcfcfc;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border: 0;
+  background: dodgerblue;
+  color: white;
+  border-radius: 2rem;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background: rgb(16, 100, 255);
+  cursor: pointer;
+}
+
+input {
+  margin-bottom: 1rem;
+}
+
+p {
+  color: #ccc;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-data {
+  padding: 1rem;
+  width: 300px;
+}
+
+.input {
+  border-radius: 0.5rem;
+  border: solid 2px #ccc;
+  transition: box-shadow 0.1s;
+}
+
+.input:focus {
+  outline: 0;
+  border: solid 2px dodgerblue;
+  box-shadow: 0 0 0.5rem rgba(17, 84, 150, 0.25s);
+}
