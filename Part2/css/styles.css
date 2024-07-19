@@ -1,10 +1,23 @@
+/* global variables */
+:root {
+  --primary-color: #ffdd36;
+  --secondary-color: dodgerblue;
+  --border-size: 2px;
+  --border-radius: 15px;
+  --padding: 1rem 2rem;
+}
+
+/* basic styles */
 body {
+  align-items: center;
+  background-color: #fcfcfc;
+  display: flex;
+  flex-direction: column;
   font-family: "Lexend", sans-serif;
   font-size: 1rem;
-  background-color: #fcfcfc;
-  line-height: 1.5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
+  justify-content: center;
+  line-height: 1.5;
 }
+
+/* page */
